@@ -24,6 +24,31 @@ void init_host(Host* host, int id) {
     gettimeofday(host->latest_timeout, NULL);
 
     // TODO: You should fill in this function as necessary to initialize variables
+    host->receive_window = calloc(glb_num_hosts, sizeof(struct receive_window_slot*)); 
+    for (int i = 0; i < glb_num_hosts; i++) {
+        host->receive_window[i] = calloc(glb_sysconfig.window_size, sizeof(struct receive_window_slot)); 
+        for(int j = 0; j < glb_sysconfig.window_size; j++){
+            host->receive_window[i][j].frame = NULL;
+            host->receive_window[i][j].received = 0;
+        }
+    }
+    
+    host->sender = calloc(glb_num_hosts, sizeof(struct sender));
+    for (int i = 0; i < glb_num_hosts; i++) {
+        host->sender[i].sws = glb_sysconfig.window_size;
+        host->sender[i].lar = MAX_SEQ_NUM;
+        host->sender[i].lfs = MAX_SEQ_NUM;
+    }
+
+    host->receiver = calloc(glb_num_hosts, sizeof(struct receiver));
+    for (int i = 0; i < glb_num_hosts; i++) {
+        host->receiver[i].rws = glb_sysconfig.window_size;
+        host->receiver[i].laf = MAX_SEQ_NUM + host->receiver[i].rws;
+        host->receiver[i].lfr = MAX_SEQ_NUM;
+        host->receiver[i].seq_num_to_ack = MAX_SEQ_NUM;
+        host->receiver[i].msg = malloc(1);
+        *(host->receiver[i].msg) = 0;
+    }
 
 
     // *********** PA1b ONLY ***********
@@ -34,6 +59,8 @@ void init_host(Host* host, int id) {
         host->cc[i].dup_acks = 0; 
         host->cc[i].state = cc_SS; 
     }
+
+    host->curr_recv_id = host->id;
 }
 
 void run_hosts() {

@@ -96,7 +96,7 @@ typedef struct EgressPort_t Egress;
    you want. However, MAX_FRAME_SIZE is fixed (i.e. 64 bytes).
 */
 
-#define FRAME_PAYLOAD_SIZE 59
+#define FRAME_PAYLOAD_SIZE 58
 struct __attribute__((packed)) Frame_t {
     /* DO NOT CHANGE:
         1) remaining_msg_bytes
@@ -106,20 +106,44 @@ struct __attribute__((packed)) Frame_t {
 
         5) data (you can change payload size)
     */   
-    uint16_t remaining_msg_bytes; 
-    uint8_t dst_id; 
-    uint8_t src_id; 
-    uint8_t seq_num; 
+    uint16_t remaining_msg_bytes; //2 bytes
+    uint8_t dst_id; //1 byte
+    uint8_t src_id; //1 byte
+    uint8_t seq_num; //1 byte, also functioning as ack_num for now
 
-    char data[FRAME_PAYLOAD_SIZE]; 
+    char data[FRAME_PAYLOAD_SIZE]; //57 bytes to account for 56 data + 1 null terminator
+
+    uint8_t crc; //1 byte
 };
-typedef struct Frame_t Frame; 
+typedef struct Frame_t Frame;  
 
 // Struct that holds the timeout of the frame and the frame that was sent out
 struct send_window_slot {
     Frame* frame;
     struct timeval* timeout;
 }; 
+
+// Struct that holds the validity and the frame of the frame that was received
+struct receive_window_slot {
+    Frame* frame;
+    int received;
+}; 
+
+// Struct for sender sliding window
+struct sender {
+    uint8_t sws; //send window size
+    uint8_t lar; //last acknowledgment received
+    uint8_t lfs; //last frame sent
+};
+
+// Struct for receiver sliding window
+struct receiver {
+    uint8_t rws; //receive window size
+    uint8_t laf; //largest acceptable frame
+    uint8_t lfr; //last frame received
+    uint8_t seq_num_to_ack; //largest seq num not yet acknowledged such that all less than/equal to frames have been received
+    char* msg;
+};
 
 // PA1b ONLY
 struct CongestionControl_t {
@@ -156,9 +180,17 @@ struct Host_t {
     LLnode* outgoing_frames_head;
 
     struct send_window_slot* send_window;
-    struct timeval* latest_timeout; 
+    struct timeval* latest_timeout;
 
     CongestionControl* cc; //PA1b ONLY
+
+    //PA1a
+    struct sender* sender;
+    struct receiver* receiver;
+    struct receive_window_slot** receive_window;
+
+    //PA1b
+    int curr_recv_id;
 };
 typedef struct Host_t Host;
 /*

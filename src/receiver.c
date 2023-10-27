@@ -18,13 +18,127 @@ void handle_incoming_frames(Host* host) {
         LLnode* ll_inmsg_node = ll_pop_node(&host->incoming_frames_head);
         incoming_frames_length = ll_get_length(host->incoming_frames_head);
 
-        Frame* inframe = ll_inmsg_node->value; 
+        Frame* inframe = ll_inmsg_node->value;
+        uint8_t src = inframe->src_id;
 
-        printf("<RECV_%d>:[%s]\n", host->id, inframe->data);
+        //Compute CRC of incoming frame to know whether it is corrupted
+        char* char_buf = convert_frame_to_char(inframe);
+        uint8_t checksum = compute_crc8(char_buf);
+
+        //Compute sliding window checks
+        int lfr_diff = seq_num_diff(inframe->seq_num, host->receiver[src].lfr);
+        int laf_diff = seq_num_diff(inframe->seq_num, host->receiver[src].laf);
+
+        fprintf(stderr, "Receiver %d handle_incoming_frames: lfr = %d, laf = %d, seq num = %d, checksum = %d\n", host->id, host->receiver[src].lfr, host->receiver[src].laf, inframe->seq_num, checksum);
+        fprintf(stderr, "Receiver %d handle_incoming_frames: lfr diff = %d, laf diff = %d\n", host->id, lfr_diff, laf_diff);
+
+        if(checksum == 0 && lfr_diff < 0 && laf_diff >= 0) {
+            fprintf(stderr, "Receiver %d handle_incoming_frames: frame %d within sliding window\n", host->id, inframe->seq_num);
+            //Frame is within sliding window
+            int msg_fin = 0;
+            Frame* incoming_frame = calloc(1, sizeof(Frame));
+            assert(incoming_frame);
+
+            incoming_frame->remaining_msg_bytes = inframe->remaining_msg_bytes;
+            incoming_frame->dst_id = inframe->dst_id;
+            incoming_frame->src_id = inframe->src_id;
+            incoming_frame->seq_num = inframe->seq_num;
+            //strcpy(incoming_frame->data, inframe->data);
+            memcpy(incoming_frame->data, inframe->data, FRAME_PAYLOAD_SIZE);
+            incoming_frame->crc = inframe->crc;
+
+            struct receive_window_slot* window_slot = &(host->receive_window[src][inframe->seq_num % host->receiver[src].rws]);
+            window_slot->frame = incoming_frame;
+            window_slot->received = 1;
+
+            //Sliding window logic
+            if(seq_num_diff(host->receiver[src].lfr, inframe->seq_num) == 1){
+                struct receive_window_slot* prev_slot = &(host->receive_window[src][((uint8_t)(host->receiver[src].lfr + 1) % host->receiver[src].rws)]);
+                while(prev_slot->received == 1){
+                    char* new_data = prev_slot->frame->data;
+                    size_t new_msg_length = strlen(new_data) + strlen(host->receiver[src].msg) + 1;
+                    char* temp_msg = realloc(host->receiver[src].msg, new_msg_length);
+                    host->receiver[src].msg = temp_msg;
+                    strcat(host->receiver[src].msg, prev_slot->frame->data);
+                    ++(host->receiver[src].lfr);
+                    ++(host->receiver[src].laf);
+                    ++(host->receiver[src].seq_num_to_ack);
+
+                    if(prev_slot->frame->remaining_msg_bytes == 0){
+                        msg_fin = 1;
+                        prev_slot->frame = NULL;
+                        prev_slot->received = 0;
+                        break;
+                    }
+
+                    prev_slot->frame = NULL;
+                    prev_slot->received = 0;
+                    prev_slot = &(host->receive_window[src][((uint8_t)(host->receiver[src].lfr + 1) % host->receiver[src].rws)]);
+
+                    fprintf(stderr, "Receiver %d handle_incoming_frames: nef, msg length is now %ld, lfr = %d, laf = %d, to_ack = %d, index = %d, prev_slot = %p\n", host->id, strlen(host->receiver[src].msg), host->receiver[src].lfr, host->receiver[src].laf, host->receiver[src].seq_num_to_ack, (host->receiver[src].lfr + 1) % host->receiver[src].rws, (void*)prev_slot);
+                }
+
+            }
+
+            //Figure out if message should be printed and if so, print it
+            if(msg_fin == 1){
+                fprintf(stderr, "Receiver %d: Finished accumulating message - %s\n", host->id, host->receiver[src].msg);
+                printf("<RECV_%d>:[%s]\n", host->id, host->receiver[src].msg);
+                msg_fin = 0;
+                //probably need to do some cleaning up once we know message is done
+                host->receiver[src].msg = malloc(1);
+                *(host->receiver[src].msg) = 0;
+
+                for(int i = 0; i < glb_sysconfig.window_size; i++){
+                    host->receive_window[src][i].frame = NULL;
+                    host->receive_window[src][i].received = 0;
+                }
+
+            }
+
+            //send ack to src with id seq_num_to_ack
+            Frame* ack_frame = calloc(1, sizeof(Frame));
+            assert(ack_frame);
+
+            ack_frame->remaining_msg_bytes = 0;
+            ack_frame->dst_id = src;
+            ack_frame->src_id = host->id;
+            ack_frame->seq_num = host->receiver[src].seq_num_to_ack;
+            //strcpy(ack_frame->data, inframe->data);
+            memcpy(ack_frame->data, inframe->data, FRAME_PAYLOAD_SIZE);
+            char* char_buf = convert_frame_to_char(ack_frame);
+            ack_frame->crc = compute_crc8(char_buf);
+
+            ll_append_node(&host->outgoing_frames_head, ack_frame);
+
+        }
+        else if(checksum == 0){
+            //send ack to src with id seq_num_to_ack
+            Frame* ack_frame = calloc(1, sizeof(Frame));
+            assert(ack_frame);
+
+            ack_frame->remaining_msg_bytes = 0;
+            ack_frame->dst_id = src;
+            ack_frame->src_id = host->id;
+            ack_frame->seq_num = host->receiver[src].seq_num_to_ack;
+            //strcpy(ack_frame->data, inframe->data);
+            memcpy(ack_frame->data, inframe->data, FRAME_PAYLOAD_SIZE);
+            char* char_buf = convert_frame_to_char(ack_frame);
+            ack_frame->crc = compute_crc8(char_buf);
+
+            ll_append_node(&host->outgoing_frames_head, ack_frame);
+
+            fprintf(stderr, "Receiver %d handle_incoming_frames: not in swp, lfr = %d, laf = %d, seq num = %d\n", host->id, host->receiver[src].lfr, host->receiver[src].laf, inframe->seq_num);
+        }
+        else{
+            fprintf(stderr, "Receiver %d handle_incoming_frames: checksum error\n", host->id);
+        }
 
         free(inframe);
         free(ll_inmsg_node);
+
     }
+
 }
 
 void run_receivers() {

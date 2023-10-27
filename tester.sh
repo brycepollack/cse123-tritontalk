@@ -22,7 +22,6 @@ function run_ordered_test() {
         echo "Test $1 OK!"
     else
         echo "FAILED TEST $1"
-        cat $stderr
     fi
 }
 
@@ -46,20 +45,24 @@ function run_unordered_test() {
         echo "Test $1 OK!"
     else
         echo "FAILED TEST $1"
-        cat $stderr
     fi
 }
 
 #Test 1
-run_ordered_test 1 basic.cfg
+run_ordered_test 1 cc_basic.cfg
 
 #Test 2
 #Advanced Testing: Checking corruption
-run_ordered_test 2 basic.cfg
+run_ordered_test 2 cc_basic.cfg
 
 #Test 3
 run_unordered_test 3 sw4.cfg
 
+#Test 4
+run_unordered_test 4 sw4.cfg
+
+#Test 5
+run_ordered_test 5 cc_basic.cfg
 
 
 
