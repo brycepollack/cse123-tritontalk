@@ -45,10 +45,6 @@ void handle_incoming_acks(Host* host, struct timeval curr_timeval) {
     //Receiver (sender of ack) host id
     uint8_t ack_src;
 
-    if (host->id == glb_sysconfig.host_send_cc_id) {
-        fprintf(cc_diagnostics,"%d,%d,%d,",host->round_trip_num, num_acks_received[glb_sysconfig.host_recv_cc_id], num_dup_acks_for_this_rtt[glb_sysconfig.host_recv_cc_id]); 
-    }
-
     int incoming_frames_length = ll_get_length(host->incoming_frames_head);
     while (incoming_frames_length > 0) {
         //Pop a node off the front of the link list and update the count
@@ -184,6 +180,10 @@ void handle_incoming_acks(Host* host, struct timeval curr_timeval) {
 
         free(inframe);
         free(ll_inmsg_node);
+    }
+
+    if (host->id == glb_sysconfig.host_send_cc_id) {
+        fprintf(cc_diagnostics,"%d,%d,%d,",host->round_trip_num, num_acks_received[glb_sysconfig.host_recv_cc_id], num_dup_acks_for_this_rtt[glb_sysconfig.host_recv_cc_id]); 
     }
 
 }

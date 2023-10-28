@@ -1,0 +1,890 @@
+Host window size=8
+Messages will be corrupted with probability=0.500000
+Available host id(s):
+   host_id=0
+   host_id=1
+   host_id=2
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 0 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 1 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 2 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 3 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 4 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 5 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 6 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 7 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 8 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 52, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 0, lfs = 255
+Sender 0: finished command message - Packet 9 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 0 to receiver 2 | effective window = 1, nfs = 1
+Receiver 2 handle_incoming_frames: lfr = 255, laf = 7, seq num = 0, checksum = 192
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 0 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 0 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 255, laf = 7, seq num = 0, checksum = 65
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 0 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 0 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 255, laf = 7, seq num = 0, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 0 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaab07c0a120
+Sender 0 handle_acks: Incoming ack 0, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 0 not in sliding window, lar = 255, lfs = 0
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 1 to receiver 2 | effective window = 1, nfs = 1
+Receiver 2 handle_incoming_frames: lfr = 0, laf = 8, seq num = 1, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 1 within sliding window
+Receiver 2: Finished accumulating message - Packet 0 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 1 not in sliding window, lar = 255, lfs = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 2 to receiver 2 | effective window = 1, nfs = 1
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 60
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 0 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 0 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 0, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = 1, laf diff = 9
+Receiver 2 handle_incoming_frames: not in swp, lfr = 1, laf = 9, seq num = 0
+Sender 0 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Freed up frame 0
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 1
+Sender 0 handle_acks: Shifting window idx 0 = frame 2
+Sender 0 handle_outgoing: Retransmitting frame 2 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 3 to receiver 2 | effective window = 2, nfs = 2
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 68
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 3, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -2, laf diff = 6
+Receiver 2 handle_incoming_frames: frame 3 within sliding window
+Sender 0 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 1 not in sliding window, lar = 1, lfs = 3
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 4 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: New frame 5 to receiver 2 | effective window = 2, nfs = 2
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 4, checksum = 120
+Receiver 2 handle_incoming_frames: lfr diff = -3, laf diff = 5
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 5, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -4, laf diff = 4
+Receiver 2 handle_incoming_frames: frame 5 within sliding window
+Sender 0 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 1 not in sliding window, lar = 1, lfs = 5
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 6 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: New frame 7 to receiver 2 | effective window = 2, nfs = 2
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 6, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -5, laf diff = 3
+Receiver 2 handle_incoming_frames: frame 6 within sliding window
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 7, checksum = 129
+Receiver 2 handle_incoming_frames: lfr diff = -6, laf diff = 2
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 1 not in sliding window, lar = 1, lfs = 7
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 8 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: New frame 9 to receiver 2 | effective window = 2, nfs = 2
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 8, checksum = 85
+Receiver 2 handle_incoming_frames: lfr diff = -7, laf diff = 1
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 9, checksum = 27
+Receiver 2 handle_incoming_frames: lfr diff = -8, laf diff = 0
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 2 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 2 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 30
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 2 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 2 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 225
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 2 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 2 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Receiver 2 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 2 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaab07c0a140
+Receiver 2: Finished accumulating message - Packet 1 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 3, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Freed up frame 2
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 3
+Sender 0 handle_acks: Shifting window idx 0 = frame 4
+Sender 0 handle_acks: Shifting window idx 1 = frame 5
+Sender 0 handle_acks: Shifting window idx 2 = frame 6
+Sender 0 handle_acks: Shifting window idx 3 = frame 7
+Sender 0 handle_acks: Shifting window idx 4 = frame 8
+Sender 0 handle_acks: Shifting window idx 5 = frame 9
+Sender 0 handle_outgoing: Retransmitting frame 4 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 5 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 3, laf = 11, seq num = 4, checksum = 5
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 3, laf = 11, seq num = 5, checksum = 85
+Receiver 2 handle_incoming_frames: lfr diff = -2, laf diff = 6
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 4 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 4 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 3, laf = 11, seq num = 4, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 4 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 4, laf = 12, to_ack = 4, index = 5, prev_slot = 0xaaab07c0a160
+Sender 0 handle_acks: Incoming ack 4, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Freed up frame 4
+Sender 0 handle_acks: Shifting window idx 0 = frame 5
+Sender 0 handle_acks: Shifting window idx 1 = frame 6
+Sender 0 handle_acks: Shifting window idx 2 = frame 7
+Sender 0 handle_acks: Shifting window idx 3 = frame 8
+Sender 0 handle_acks: Shifting window idx 4 = frame 9
+Sender 0 handle_outgoing: Retransmitting frame 5 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 6 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 4, laf = 12, seq num = 5, checksum = 219
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 4, laf = 12, seq num = 6, checksum = 71
+Receiver 2 handle_incoming_frames: lfr diff = -2, laf diff = 6
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 5 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 5 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 4, laf = 12, seq num = 5, checksum = 86
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 5 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 5 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 4, laf = 12, seq num = 5, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 5 within sliding window
+Receiver 2: Finished accumulating message - Packet 2 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 5, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 5
+Sender 0 handle_acks: Shifting window idx 0 = frame 6
+Sender 0 handle_acks: Shifting window idx 1 = frame 7
+Sender 0 handle_acks: Shifting window idx 2 = frame 8
+Sender 0 handle_acks: Shifting window idx 3 = frame 9
+Sender 0 handle_outgoing: Retransmitting frame 6 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 7 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 5, laf = 13, seq num = 6, checksum = 129
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 5, laf = 13, seq num = 7, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -2, laf diff = 6
+Receiver 2 handle_incoming_frames: frame 7 within sliding window
+Sender 0 handle_acks: Incoming ack 5, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 5 not in sliding window, lar = 5, lfs = 9
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 8 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 9 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 5, laf = 13, seq num = 8, checksum = 78
+Receiver 2 handle_incoming_frames: lfr diff = -3, laf diff = 5
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 5, laf = 13, seq num = 9, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -4, laf diff = 4
+Receiver 2 handle_incoming_frames: frame 9 within sliding window
+Sender 0 handle_acks: Incoming ack 5, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 5 not in sliding window, lar = 5, lfs = 9
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 10 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: New frame 11 to receiver 2 | effective window = 2, nfs = 2
+Receiver 2 handle_incoming_frames: lfr = 5, laf = 13, seq num = 10, checksum = 101
+Receiver 2 handle_incoming_frames: lfr diff = -5, laf diff = 3
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 5, laf = 13, seq num = 11, checksum = 172
+Receiver 2 handle_incoming_frames: lfr diff = -6, laf diff = 2
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 6 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 6 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 5, laf = 13, seq num = 6, checksum = 129
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 6 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 6 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 5, laf = 13, seq num = 6, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 6 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 6, laf = 14, to_ack = 6, index = 7, prev_slot = 0xaaab07c0a180
+Receiver 2: Finished accumulating message - Packet 3 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 7, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 7 not in sliding window, lar = 5, lfs = 11
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 7 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 7, laf = 15, seq num = 7, checksum = 130
+Receiver 2 handle_incoming_frames: lfr diff = 0, laf diff = 8
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 6 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 6 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 7, laf = 15, seq num = 6, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = 1, laf diff = 9
+Receiver 2 handle_incoming_frames: not in swp, lfr = 7, laf = 15, seq num = 6
+Sender 0 handle_acks: Incoming ack 7, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Freed up frame 6
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 7
+Sender 0 handle_acks: Shifting window idx 0 = frame 8
+Sender 0 handle_acks: Shifting window idx 1 = frame 9
+Sender 0 handle_acks: Shifting window idx 2 = frame 10
+Sender 0 handle_acks: Shifting window idx 3 = frame 11
+Sender 0 handle_outgoing: Retransmitting frame 8 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 9 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 7, laf = 15, seq num = 8, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 8 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 8, laf = 16, to_ack = 8, index = 1, prev_slot = 0xaaab07c0a120
+Receiver 2 handle_incoming_frames: lfr = 8, laf = 16, seq num = 9, checksum = 245
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_acks: Incoming ack 8, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 8 not in sliding window, lar = 7, lfs = 11
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 10 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 11 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 8, laf = 16, seq num = 10, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -2, laf diff = 6
+Receiver 2 handle_incoming_frames: frame 10 within sliding window
+Receiver 2 handle_incoming_frames: lfr = 8, laf = 16, seq num = 11, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -3, laf diff = 5
+Receiver 2 handle_incoming_frames: frame 11 within sliding window
+Sender 0 handle_acks: Incoming ack 8, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 8 not in sliding window, lar = 7, lfs = 11
+Sender 0 handle_acks: Incoming ack 8, num acks = 2, dup acks = 1
+Sender 0 handle_acks: Freed up frame 8
+Sender 0 handle_acks: Shifting window idx 0 = frame 9
+Sender 0 handle_acks: Shifting window idx 1 = frame 10
+Sender 0 handle_acks: Shifting window idx 2 = frame 11
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 12 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: New frame 13 to receiver 2 | effective window = 2, nfs = 2
+Receiver 2 handle_incoming_frames: lfr = 8, laf = 16, seq num = 12, checksum = 46
+Receiver 2 handle_incoming_frames: lfr diff = -4, laf diff = 4
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 8, laf = 16, seq num = 13, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -5, laf diff = 3
+Receiver 2 handle_incoming_frames: frame 13 within sliding window
+Sender 0 handle_acks: Incoming ack 8, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 8 not in sliding window, lar = 8, lfs = 13
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 14 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: New frame 15 to receiver 2 | effective window = 2, nfs = 2
+Receiver 2 handle_incoming_frames: lfr = 8, laf = 16, seq num = 14, checksum = 165
+Receiver 2 handle_incoming_frames: lfr diff = -6, laf diff = 2
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 8, laf = 16, seq num = 15, checksum = 45
+Receiver 2 handle_incoming_frames: lfr diff = -7, laf diff = 1
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 9 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 9 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 8, laf = 16, seq num = 9, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 9 within sliding window
+Receiver 2: Finished accumulating message - Packet 4 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 9, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 9 not in sliding window, lar = 8, lfs = 15
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 10 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 9, laf = 17, seq num = 10, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 10 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 10, laf = 18, to_ack = 10, index = 3, prev_slot = 0xaaab07c0a140
+Sender 0 handle_acks: Incoming ack 10, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 9
+Sender 0 handle_acks: Freed up frame 10
+Sender 0 handle_acks: Shifting window idx 0 = frame 11
+Sender 0 handle_acks: Shifting window idx 1 = frame 12
+Sender 0 handle_acks: Shifting window idx 2 = frame 13
+Sender 0 handle_acks: Shifting window idx 3 = frame 14
+Sender 0 handle_acks: Shifting window idx 4 = frame 15
+Sender 0 handle_outgoing: Retransmitting frame 11 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 12 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 10, laf = 18, seq num = 11, checksum = 180
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 10, laf = 18, seq num = 12, checksum = 141
+Receiver 2 handle_incoming_frames: lfr diff = -2, laf diff = 6
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 11 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 11 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 10, laf = 18, seq num = 11, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 11 within sliding window
+Receiver 2: Finished accumulating message - Packet 5 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 11, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 11 not in sliding window, lar = 10, lfs = 15
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 12 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 11, laf = 19, seq num = 12, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 12 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 12, laf = 20, to_ack = 12, index = 5, prev_slot = 0xaaab07c0a160
+Sender 0 handle_acks: Incoming ack 12, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 12 not in sliding window, lar = 10, lfs = 15
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 13 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 12, laf = 20, seq num = 13, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 13 within sliding window
+Receiver 2: Finished accumulating message - Packet 6 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 13, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 11
+Sender 0 handle_acks: Freed up frame 12
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 13
+Sender 0 handle_acks: Shifting window idx 0 = frame 14
+Sender 0 handle_acks: Shifting window idx 1 = frame 15
+Sender 0 handle_outgoing: Retransmitting frame 14 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 15 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 13, laf = 21, seq num = 14, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 14 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 14, laf = 22, to_ack = 14, index = 7, prev_slot = 0xaaab07c0a180
+Receiver 2 handle_incoming_frames: lfr = 14, laf = 22, seq num = 15, checksum = 111
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_acks: Incoming ack 14, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 14 not in sliding window, lar = 13, lfs = 15
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 16 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: New frame 17 to receiver 2 | effective window = 2, nfs = 2
+Receiver 2 handle_incoming_frames: lfr = 14, laf = 22, seq num = 16, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -2, laf diff = 6
+Receiver 2 handle_incoming_frames: frame 16 within sliding window
+Receiver 2 handle_incoming_frames: lfr = 14, laf = 22, seq num = 17, checksum = 163
+Receiver 2 handle_incoming_frames: lfr diff = -3, laf diff = 5
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_acks: Incoming ack 14, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Freed up frame 14
+Sender 0 handle_acks: Shifting window idx 0 = frame 15
+Sender 0 handle_acks: Shifting window idx 1 = frame 16
+Sender 0 handle_acks: Shifting window idx 2 = frame 17
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 18 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: New frame 19 to receiver 2 | effective window = 2, nfs = 2
+Receiver 2 handle_incoming_frames: lfr = 14, laf = 22, seq num = 237, checksum = 10
+Receiver 2 handle_incoming_frames: lfr diff = 33, laf diff = 41
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 14, laf = 22, seq num = 19, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -5, laf diff = 3
+Receiver 2 handle_incoming_frames: frame 19 within sliding window
+Sender 0 handle_acks: Incoming ack 14, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 14 not in sliding window, lar = 14, lfs = 19
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_timedout: Frame 15 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 15 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 14, laf = 22, seq num = 15, checksum = 101
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 15 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 15 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 14, laf = 22, seq num = 15, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 15 within sliding window
+Receiver 2: Finished accumulating message - Packet 7 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 15, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 15 not in sliding window, lar = 14, lfs = 19
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 16 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 16, checksum = 23
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 15 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 15 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 15, checksum = 129
+Receiver 2 handle_incoming_frames: lfr diff = 0, laf diff = 8
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 15 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 15 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 15, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = 0, laf diff = 8
+Receiver 2 handle_incoming_frames: not in swp, lfr = 15, laf = 23, seq num = 15
+Sender 0 handle_acks: Incoming ack 15, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 15 not in sliding window, lar = 14, lfs = 19
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 16 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 16, checksum = 225
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 15 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 15 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 15, checksum = 245
+Receiver 2 handle_incoming_frames: lfr diff = 0, laf diff = 8
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 15 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 15 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 15, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = 0, laf diff = 8
+Receiver 2 handle_incoming_frames: not in swp, lfr = 15, laf = 23, seq num = 15
+Sender 0 handle_acks: Incoming ack 15, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 15
+Sender 0 handle_acks: Shifting window idx 0 = frame 16
+Sender 0 handle_acks: Shifting window idx 1 = frame 17
+Sender 0 handle_acks: Shifting window idx 2 = frame 18
+Sender 0 handle_acks: Shifting window idx 3 = frame 19
+Sender 0 handle_outgoing: Retransmitting frame 16 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 17 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Not retransmitting because nfs = 2, window size = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 16, checksum = 114
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 17, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -2, laf diff = 6
+Receiver 2 handle_incoming_frames: frame 17 within sliding window
+Sender 0 handle_acks: Incoming ack 15, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 15 not in sliding window, lar = 15, lfs = 19
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 18 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 19 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 237, checksum = 10
+Receiver 2 handle_incoming_frames: lfr diff = 34, laf diff = 42
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 19, checksum = 78
+Receiver 2 handle_incoming_frames: lfr diff = -4, laf diff = 4
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 16 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 16 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 15, laf = 23, seq num = 16, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 16 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 16, laf = 24, to_ack = 16, index = 1, prev_slot = 0xaaab07c0a120
+Receiver 2: Finished accumulating message - Packet 8 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 17, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 17 not in sliding window, lar = 15, lfs = 19
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Retransmitting frame 17 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 17, laf = 25, seq num = 17, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = 0, laf diff = 8
+Receiver 2 handle_incoming_frames: not in swp, lfr = 17, laf = 25, seq num = 17
+Sender 0 handle_acks: Incoming ack 17, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Freed up frame 16
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 17
+Sender 0 handle_acks: Shifting window idx 0 = frame 18
+Sender 0 handle_acks: Shifting window idx 1 = frame 19
+Sender 0 handle_outgoing: Retransmitting frame 18 to receiver 2 | effective window = 2, nfs = 1
+Sender 0 handle_outgoing: Retransmitting frame 19 to receiver 2 | effective window = 2, nfs = 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 17, laf = 25, seq num = 237, checksum = 10
+Receiver 2 handle_incoming_frames: lfr diff = 36, laf diff = 44
+Receiver 2 handle_incoming_frames: checksum error
+Receiver 2 handle_incoming_frames: lfr = 17, laf = 25, seq num = 19, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -2, laf diff = 6
+Receiver 2 handle_incoming_frames: frame 19 within sliding window
+Sender 0 handle_acks: Incoming ack 17, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Ack 17 not in sliding window, lar = 17, lfs = 19
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_timedout: Frame 18 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 18 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 17, laf = 25, seq num = 18, checksum = 114
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: checksum error
+Sender 0 handle_timedout: Frame 18 has timed out, setting window to null
+Sender 0 handle_outgoing: Retransmitting frame 18 to receiver 2 | effective window = 1, nfs = 1
+Sender 0 handle_outgoing: Not retransmitting because nfs = 1, window size = 1
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Receiver 2 handle_incoming_frames: lfr = 17, laf = 25, seq num = 18, checksum = 0
+Receiver 2 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 2 handle_incoming_frames: frame 18 within sliding window
+Receiver 2 handle_incoming_frames: nef, msg length is now 57, lfr = 18, laf = 26, to_ack = 18, index = 3, prev_slot = 0xaaab07c0a140
+Receiver 2: Finished accumulating message - Packet 9 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 0 handle_acks: Incoming ack 19, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Freed up frame 18
+Sender 0 handle_acks: Finished up msg with receiver 2
+Sender 0 handle_acks: Freed up frame 19
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+The program has been successfully closed.
