@@ -13,8 +13,8 @@ function run_ordered_test() {
     exp_out=./test_suite/test$1/exp_out.txt
     config_path=./test_suite/$2
 
-	# ./tritontalk -t $1 -p $config_path < $test_input 2>$stderr  1>$stdout
-    ./tritontalk -t $1 -s 0 -r 1 -p $config_path < $test_input 2>$stderr  1>$stdout
+	./tritontalk -t $1 -p $config_path < $test_input 2>$stderr  1>$stdout
+    # ./tritontalk -t $1 -s 0 -r 1 -p $config_path < $test_input 2>$stderr  1>$stdout
 
 
     out_cmp=$(<$stdout)
@@ -53,21 +53,21 @@ function run_unordered_test() {
 #Test 1
 run_ordered_test 1 cc_basic.cfg
 
-# #Test 2
-# #Advanced Testing: Checking corruption
-# run_ordered_test 2 cc_basic.cfg
+#Test 2
+#Advanced Testing: Checking corruption
+run_ordered_test 2 cc_basic.cfg
 
-# #Test 3
-# run_unordered_test 3 sw4.cfg
+#Test 3
+run_unordered_test 3 sw4.cfg
 
-# #Test 4
-# run_unordered_test 4 sw4.cfg
+#Test 4
+run_unordered_test 4 sw4.cfg
 
-# #Test 5
-# run_ordered_test 5 cc_basic.cfg
+#Test 5
+run_ordered_test 5 cc_basic.cfg
 
-# #Test 6
-# run_ordered_test 6 basic.cfg
+#Test 6
+run_ordered_test 6 basic.cfg
 
 
 

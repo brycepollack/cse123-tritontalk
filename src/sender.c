@@ -68,6 +68,7 @@ void handle_incoming_acks(Host* host, struct timeval curr_timeval) {
         if(checksum == 0 && lar_diff < 0 && lfs_diff >= 0){
             //Probably means this is not a duplicate
             num_dup_acks_for_this_rtt[ack_src] = 0;
+            host->cc[ack_src].dup_acks = 0;
             //Slow start, non-dup ack
             if(host->cc[ack_src].state == cc_SS){
                 if(host->cc[ack_src].cwnd <= host->cc[ack_src].ssthresh){
@@ -80,6 +81,11 @@ void handle_incoming_acks(Host* host, struct timeval curr_timeval) {
                     host->cc[ack_src].state = cc_AIMD;
                 }
             }
+            //FRFT, ACK arrives that acknowledges new data
+            if(host->cc[ack_src].state == cc_FRFT){
+                host->cc[ack_src].cwnd = host->cc[ack_src].ssthresh;
+                host->cc[ack_src].state = cc_AIMD;
+            }
             //AIMD, non-dup ack
             if(host->cc[ack_src].state == cc_AIMD){
                 //cwnd > ssthresh, not sure if this is necessary as this is a condition to enter AIMD?
@@ -87,11 +93,6 @@ void handle_incoming_acks(Host* host, struct timeval curr_timeval) {
                     double incr = 1 / host->cc[ack_src].cwnd;
                     host->cc[ack_src].cwnd += incr;
                 }
-            }
-            //FRFT, ACK arrives that acknowledges new data
-            if(host->cc[ack_src].state == cc_FRFT){
-                host->cc[ack_src].cwnd = host->cc[ack_src].ssthresh;
-                host->cc[ack_src].state = cc_AIMD;
             }
             //Clear out frames covered in cumulative ACK from send window
             for(int i = 0; i < glb_sysconfig.window_size; i++){
@@ -142,11 +143,12 @@ void handle_incoming_acks(Host* host, struct timeval curr_timeval) {
             fprintf(stderr, "Sender %d handle_acks: Ack %d not in sliding window, lar = %d, lfs = %d\n", host->id, inframe->seq_num, host->sender[ack_src].lar, host->sender[ack_src].lfs);
             //Probably means this is a duplicate
             num_dup_acks_for_this_rtt[ack_src] += 1;
+            host->cc[ack_src].dup_acks += 1;
             //Increment cwnd by 1 for every dup ack past 3
             if(host->cc[ack_src].state == cc_FRFT){
                 host->cc[ack_src].cwnd += 1;
             }
-            if(num_dup_acks_for_this_rtt[ack_src] == 3){
+            if(host->cc[ack_src].dup_acks == 3){
                 host->cc[ack_src].state = cc_FRFT;
                 host->cc[ack_src].ssthresh = max_double(host->cc[ack_src].cwnd / 2, 2.0);
                 host->cc[ack_src].cwnd = host->cc[ack_src].ssthresh + 3;
@@ -184,6 +186,7 @@ void handle_incoming_acks(Host* host, struct timeval curr_timeval) {
 
     if (host->id == glb_sysconfig.host_send_cc_id) {
         fprintf(cc_diagnostics,"%d,%d,%d,",host->round_trip_num, num_acks_received[glb_sysconfig.host_recv_cc_id], num_dup_acks_for_this_rtt[glb_sysconfig.host_recv_cc_id]); 
+        //fprintf(cc_diagnostics,"%d,%d,%d,",host->round_trip_num, num_acks_received[glb_sysconfig.host_recv_cc_id], host->cc[glb_sysconfig.host_recv_cc_id].dup_acks);
     }
 
 }
