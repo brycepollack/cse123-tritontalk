@@ -1,11 +1,10 @@
-Host window size=20
-Messages will be corrupted with probability=0.000000
+Host window size=8
+Messages will be corrupted with probability=0.400000
 Available host id(s):
    host_id=0
    host_id=1
    host_id=2
    host_id=3
-   host_id=4
 Sender 0 handle_input_cmds: Chunk 0, remaining bytes 0, lfs = 255
 Sender 0: finished command message - Hello World!
 Sender 0 handle_outgoing: Window frame is null or timeout is not null
@@ -16,38 +15,14 @@ Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 0 handle_outgoing: New frame 0 to receiver 1 | effective window = 1, nfs = 1
-Receiver 1 handle_incoming_frames: lfr = 255, laf = 19, seq num = 0, checksum = 0
-Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 19
+Receiver 1 handle_incoming_frames: sender = 0, lfr = 255, laf = 7, seq num = 0, checksum = 0
+Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 1 handle_incoming_frames: frame 0 within sliding window
-Receiver 1: Finished accumulating message - Hello World!
+Receiver 1: Finished accumulating message from sender 0 - Hello World!
 Sender 0 handle_acks: Incoming ack 0, num acks = 1, dup acks = 0
 Sender 0 handle_acks: Finished up msg with receiver 1
 Sender 0 handle_acks: Freed up frame 0
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 0 handle_outgoing: Window frame is null or timeout is not null

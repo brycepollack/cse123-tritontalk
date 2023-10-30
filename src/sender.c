@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "switch.h"
 
-//OLD host_get_next_expiring
+//NEW host_get_next_expiring
 struct timeval* host_get_next_expiring_timeval(Host* host) {
     // TODO: You should fill in this function so that it returns the 
     // timeval when next timeout should occur
@@ -15,6 +15,10 @@ struct timeval* host_get_next_expiring_timeval(Host* host) {
 
     for(int i = 0; i < glb_sysconfig.window_size; i++){
         window_slot = &(host->send_window[i]);
+        if(window_slot->frame != NULL && window_slot->timeout == NULL){
+            return host->latest_timeout;
+        }
+
         if(next_expiring_timeout == NULL){
             next_expiring_timeout = window_slot->timeout;
         }
@@ -296,8 +300,6 @@ void handle_outgoing_frames(Host* host, struct timeval curr_timeval) {
         memcpy(&curr_timeval, host->latest_timeout, sizeof(struct timeval)); 
     }
 
-    //int num_frames_sent = 0;
-
     //Retransmit frames that have timed out i.e. timeout = NULL
     struct send_window_slot* window_slot;
     for (int i = 0; i < glb_sysconfig.window_size; i++) {
@@ -479,7 +481,7 @@ void run_senders() {
 
         //Condition to indicate that the host is active 
         if (host->awaiting_ack || ll_get_length(host->buffered_outframes_head) > 0) {
-            host->active = 1; 
+            host->active = 1;
         }
     }
 }

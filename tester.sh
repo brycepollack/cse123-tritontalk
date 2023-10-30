@@ -51,11 +51,11 @@ function run_unordered_test() {
 }
 
 #Test 1
-run_ordered_test 1 cc_basic.cfg
+run_ordered_test 1 basic.cfg
 
 #Test 2
 #Advanced Testing: Checking corruption
-run_ordered_test 2 cc_basic.cfg
+run_ordered_test 2 basic.cfg
 
 #Test 3
 run_unordered_test 3 sw4.cfg
@@ -64,10 +64,13 @@ run_unordered_test 3 sw4.cfg
 run_unordered_test 4 sw4.cfg
 
 #Test 5
-run_ordered_test 5 cc_basic.cfg
+run_ordered_test 5 basic.cfg
 
 #Test 6
 run_ordered_test 6 basic.cfg
+
+#Test 7
+run_ordered_test 7 basic.cfg
 
 
 

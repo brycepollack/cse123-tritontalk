@@ -29,7 +29,7 @@ void handle_incoming_frames(Host* host) {
         int lfr_diff = seq_num_diff(inframe->seq_num, host->receiver[src].lfr);
         int laf_diff = seq_num_diff(inframe->seq_num, host->receiver[src].laf);
 
-        fprintf(stderr, "Receiver %d handle_incoming_frames: lfr = %d, laf = %d, seq num = %d, checksum = %d\n", host->id, host->receiver[src].lfr, host->receiver[src].laf, inframe->seq_num, checksum);
+        fprintf(stderr, "Receiver %d handle_incoming_frames: sender = %d, lfr = %d, laf = %d, seq num = %d, checksum = %d\n", host->id, src, host->receiver[src].lfr, host->receiver[src].laf, inframe->seq_num, checksum);
         fprintf(stderr, "Receiver %d handle_incoming_frames: lfr diff = %d, laf diff = %d\n", host->id, lfr_diff, laf_diff);
 
         if(checksum == 0 && lfr_diff < 0 && laf_diff >= 0) {
@@ -75,14 +75,14 @@ void handle_incoming_frames(Host* host) {
                     prev_slot->received = 0;
                     prev_slot = &(host->receive_window[src][((uint8_t)(host->receiver[src].lfr + 1) % host->receiver[src].rws)]);
 
-                    fprintf(stderr, "Receiver %d handle_incoming_frames: nef, msg length is now %ld, lfr = %d, laf = %d, to_ack = %d, index = %d, prev_slot = %p\n", host->id, strlen(host->receiver[src].msg), host->receiver[src].lfr, host->receiver[src].laf, host->receiver[src].seq_num_to_ack, (host->receiver[src].lfr + 1) % host->receiver[src].rws, (void*)prev_slot);
+                    fprintf(stderr, "Receiver %d handle_incoming_frames: nef for sender %d, msg length is now %ld, lfr = %d, laf = %d, to_ack = %d, index = %d, prev_slot = %p\n", host->id, src, strlen(host->receiver[src].msg), host->receiver[src].lfr, host->receiver[src].laf, host->receiver[src].seq_num_to_ack, (host->receiver[src].lfr + 1) % host->receiver[src].rws, (void*)prev_slot);
                 }
 
             }
 
             //Figure out if message should be printed and if so, print it
             if(msg_fin == 1){
-                fprintf(stderr, "Receiver %d: Finished accumulating message - %s\n", host->id, host->receiver[src].msg);
+                fprintf(stderr, "Receiver %d: Finished accumulating message from sender %d - %s\n", host->id, src, host->receiver[src].msg);
                 printf("<RECV_%d>:[%s]\n", host->id, host->receiver[src].msg);
                 msg_fin = 0;
                 //probably need to do some cleaning up once we know message is done

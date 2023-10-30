@@ -6,20 +6,39 @@ Available host id(s):
    host_id=2
    host_id=3
    host_id=4
-Sender 0 handle_input_cmds: Chunk 0, remaining bytes 143, lfs = 255
-Sender 0 handle_input_cmds: Chunk 1, remaining bytes 86, lfs = 255
-Sender 0 handle_input_cmds: Chunk 2, remaining bytes 29, lfs = 255
-Sender 0 handle_input_cmds: Chunk 3, remaining bytes 0, lfs = 255
-Sender 0: finished command message - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: New frame 0 to receiver 1 | effective window = 1, nfs = 1
+Sender 2 handle_input_cmds: Chunk 0, remaining bytes 143, lfs = 255
+Sender 2 handle_input_cmds: Chunk 1, remaining bytes 86, lfs = 255
+Sender 2 handle_input_cmds: Chunk 2, remaining bytes 29, lfs = 255
+Sender 2 handle_input_cmds: Chunk 3, remaining bytes 0, lfs = 255
+Sender 2: finished command message - dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: New frame 0 to receiver 0 | effective window = 1, nfs = 1
+Sender 3 handle_input_cmds: Chunk 0, remaining bytes 143, lfs = 255
+Sender 3 handle_input_cmds: Chunk 1, remaining bytes 86, lfs = 255
+Sender 3 handle_input_cmds: Chunk 2, remaining bytes 29, lfs = 255
+Sender 3 handle_input_cmds: Chunk 3, remaining bytes 0, lfs = 255
+Sender 3: finished command message - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+Sender 3 handle_input_cmds: Chunk 0, remaining bytes 143, lfs = 255
+Sender 3 handle_input_cmds: Chunk 1, remaining bytes 86, lfs = 255
+Sender 3 handle_input_cmds: Chunk 2, remaining bytes 29, lfs = 255
+Sender 3 handle_input_cmds: Chunk 3, remaining bytes 0, lfs = 255
+Sender 3: finished command message - ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: New frame 0 to receiver 0 | effective window = 1, nfs = 1
 Sender 1 handle_input_cmds: Chunk 0, remaining bytes 143, lfs = 255
 Sender 1 handle_input_cmds: Chunk 1, remaining bytes 86, lfs = 255
 Sender 1 handle_input_cmds: Chunk 2, remaining bytes 29, lfs = 255
@@ -44,55 +63,48 @@ Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: New frame 0 to receiver 0 | effective window = 1, nfs = 1
-Sender 3 handle_input_cmds: Chunk 0, remaining bytes 143, lfs = 255
-Sender 3 handle_input_cmds: Chunk 1, remaining bytes 86, lfs = 255
-Sender 3 handle_input_cmds: Chunk 2, remaining bytes 29, lfs = 255
-Sender 3 handle_input_cmds: Chunk 3, remaining bytes 0, lfs = 255
-Sender 3: finished command message - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-Sender 3 handle_input_cmds: Chunk 0, remaining bytes 143, lfs = 255
-Sender 3 handle_input_cmds: Chunk 1, remaining bytes 86, lfs = 255
-Sender 3 handle_input_cmds: Chunk 2, remaining bytes 29, lfs = 255
-Sender 3 handle_input_cmds: Chunk 3, remaining bytes 0, lfs = 255
-Sender 3: finished command message - ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: New frame 0 to receiver 0 | effective window = 1, nfs = 1
-Sender 2 handle_input_cmds: Chunk 0, remaining bytes 143, lfs = 255
-Sender 2 handle_input_cmds: Chunk 1, remaining bytes 86, lfs = 255
-Sender 2 handle_input_cmds: Chunk 2, remaining bytes 29, lfs = 255
-Sender 2 handle_input_cmds: Chunk 3, remaining bytes 0, lfs = 255
-Sender 2: finished command message - dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: New frame 0 to receiver 0 | effective window = 1, nfs = 1
-Receiver 1 handle_incoming_frames: lfr = 255, laf = 7, seq num = 0, checksum = 0
+Sender 0 handle_input_cmds: Chunk 0, remaining bytes 143, lfs = 255
+Sender 0 handle_input_cmds: Chunk 1, remaining bytes 86, lfs = 255
+Sender 0 handle_input_cmds: Chunk 2, remaining bytes 29, lfs = 255
+Sender 0 handle_input_cmds: Chunk 3, remaining bytes 0, lfs = 255
+Sender 0: finished command message - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 0 to receiver 1 | effective window = 1, nfs = 1
+Receiver 0 handle_incoming_frames: sender = 3, lfr = 255, laf = 7, seq num = 0, checksum = 0
+Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 0 handle_incoming_frames: frame 0 within sliding window
+Receiver 0 handle_incoming_frames: nef for sender 3, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaaad8974dc0
+Receiver 0 handle_incoming_frames: sender = 2, lfr = 255, laf = 7, seq num = 0, checksum = 0
+Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 0 handle_incoming_frames: frame 0 within sliding window
+Receiver 0 handle_incoming_frames: nef for sender 2, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaaad8974d30
+Receiver 0 handle_incoming_frames: sender = 1, lfr = 255, laf = 7, seq num = 0, checksum = 0
+Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 0 handle_incoming_frames: frame 0 within sliding window
+Receiver 0 handle_incoming_frames: nef for sender 1, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaaad8974ca0
+Receiver 1 handle_incoming_frames: sender = 0, lfr = 255, laf = 7, seq num = 0, checksum = 0
 Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 1 handle_incoming_frames: frame 0 within sliding window
-Receiver 1 handle_incoming_frames: nef, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaab07751080
-Receiver 0 handle_incoming_frames: lfr = 255, laf = 7, seq num = 0, checksum = 0
-Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 0 handle_incoming_frames: frame 0 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaab07750d30
-Receiver 0 handle_incoming_frames: lfr = 255, laf = 7, seq num = 0, checksum = 0
-Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 0 handle_incoming_frames: frame 0 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaab07750dc0
-Receiver 0 handle_incoming_frames: lfr = 255, laf = 7, seq num = 0, checksum = 0
-Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 0 handle_incoming_frames: frame 0 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaab07750ca0
+Receiver 1 handle_incoming_frames: nef for sender 0, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaaad8975080
+Sender 3 handle_acks: Incoming ack 0, num acks = 1, dup acks = 0
+Sender 3 handle_acks: Freed up frame 0
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: New frame 1 to receiver 0 | effective window = 2, nfs = 1
+Sender 3 handle_outgoing: New frame 2 to receiver 0 | effective window = 2, nfs = 2
 Sender 2 handle_acks: Incoming ack 0, num acks = 1, dup acks = 0
 Sender 2 handle_acks: Freed up frame 0
 Sender 2 handle_outgoing: Window frame is null or timeout is not null
@@ -117,18 +129,6 @@ Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 0 handle_outgoing: New frame 1 to receiver 1 | effective window = 2, nfs = 1
 Sender 0 handle_outgoing: New frame 2 to receiver 1 | effective window = 2, nfs = 2
-Sender 3 handle_acks: Incoming ack 0, num acks = 1, dup acks = 0
-Sender 3 handle_acks: Freed up frame 0
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: New frame 1 to receiver 0 | effective window = 2, nfs = 1
-Sender 3 handle_outgoing: New frame 2 to receiver 0 | effective window = 2, nfs = 2
 Sender 1 handle_acks: Incoming ack 0, num acks = 1, dup acks = 0
 Sender 1 handle_acks: Freed up frame 0
 Sender 1 handle_outgoing: Window frame is null or timeout is not null
@@ -141,80 +141,38 @@ Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: New frame 1 to receiver 0 | effective window = 2, nfs = 1
 Sender 1 handle_outgoing: New frame 2 to receiver 0 | effective window = 2, nfs = 2
-Receiver 0 handle_incoming_frames: lfr = 0, laf = 8, seq num = 1, checksum = 0
-Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 0 handle_incoming_frames: frame 1 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaab07750cb0
-Receiver 0 handle_incoming_frames: lfr = 0, laf = 8, seq num = 1, checksum = 0
-Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 0 handle_incoming_frames: frame 1 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaab07750d40
-Receiver 0 handle_incoming_frames: lfr = 0, laf = 8, seq num = 1, checksum = 0
-Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 0 handle_incoming_frames: frame 1 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaab07750dd0
-Receiver 0 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 0
-Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 0 handle_incoming_frames: frame 2 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaab07750cc0
-Receiver 0 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 0
-Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 0 handle_incoming_frames: frame 2 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaab07750d50
-Receiver 0 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 0
-Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 0 handle_incoming_frames: frame 2 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaab07750de0
-Receiver 1 handle_incoming_frames: lfr = 0, laf = 8, seq num = 1, checksum = 0
+Receiver 1 handle_incoming_frames: sender = 0, lfr = 0, laf = 8, seq num = 1, checksum = 0
 Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 1 handle_incoming_frames: frame 1 within sliding window
-Receiver 1 handle_incoming_frames: nef, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaab07751090
-Receiver 1 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 0
+Receiver 1 handle_incoming_frames: nef for sender 0, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaaad8975090
+Receiver 1 handle_incoming_frames: sender = 0, lfr = 1, laf = 9, seq num = 2, checksum = 0
 Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 1 handle_incoming_frames: frame 2 within sliding window
-Receiver 1 handle_incoming_frames: nef, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaab077510a0
-Sender 3 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
-Sender 3 handle_acks: Freed up frame 1
-Sender 3 handle_acks: Shifting window idx 0 = frame 2
-Sender 3 handle_acks: Incoming ack 2, num acks = 2, dup acks = 0
-Sender 3 handle_acks: Freed up frame 2
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: New frame 3 to receiver 0 | effective window = 4, nfs = 1
-Sender 0 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
-Sender 0 handle_acks: Freed up frame 1
-Sender 0 handle_acks: Shifting window idx 0 = frame 2
-Sender 0 handle_acks: Incoming ack 2, num acks = 2, dup acks = 0
-Sender 0 handle_acks: Freed up frame 2
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: New frame 3 to receiver 1 | effective window = 4, nfs = 1
-Sender 2 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
-Sender 2 handle_acks: Freed up frame 1
-Sender 2 handle_acks: Shifting window idx 0 = frame 2
-Sender 2 handle_acks: Incoming ack 2, num acks = 2, dup acks = 0
-Sender 2 handle_acks: Freed up frame 2
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: Window frame is null or timeout is not null
-Sender 2 handle_outgoing: New frame 3 to receiver 0 | effective window = 4, nfs = 1
+Receiver 1 handle_incoming_frames: nef for sender 0, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaaad89750a0
+Receiver 0 handle_incoming_frames: sender = 1, lfr = 0, laf = 8, seq num = 1, checksum = 0
+Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 0 handle_incoming_frames: frame 1 within sliding window
+Receiver 0 handle_incoming_frames: nef for sender 1, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaaad8974cb0
+Receiver 0 handle_incoming_frames: sender = 3, lfr = 0, laf = 8, seq num = 1, checksum = 0
+Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 0 handle_incoming_frames: frame 1 within sliding window
+Receiver 0 handle_incoming_frames: nef for sender 3, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaaad8974dd0
+Receiver 0 handle_incoming_frames: sender = 2, lfr = 0, laf = 8, seq num = 1, checksum = 0
+Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 0 handle_incoming_frames: frame 1 within sliding window
+Receiver 0 handle_incoming_frames: nef for sender 2, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaaad8974d40
+Receiver 0 handle_incoming_frames: sender = 3, lfr = 1, laf = 9, seq num = 2, checksum = 0
+Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 0 handle_incoming_frames: frame 2 within sliding window
+Receiver 0 handle_incoming_frames: nef for sender 3, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaaad8974de0
+Receiver 0 handle_incoming_frames: sender = 2, lfr = 1, laf = 9, seq num = 2, checksum = 0
+Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 0 handle_incoming_frames: frame 2 within sliding window
+Receiver 0 handle_incoming_frames: nef for sender 2, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaaad8974d50
+Receiver 0 handle_incoming_frames: sender = 1, lfr = 1, laf = 9, seq num = 2, checksum = 0
+Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 0 handle_incoming_frames: frame 2 within sliding window
+Receiver 0 handle_incoming_frames: nef for sender 1, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaaad8974cc0
 Sender 1 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
 Sender 1 handle_acks: Freed up frame 1
 Sender 1 handle_acks: Shifting window idx 0 = frame 2
@@ -232,34 +190,76 @@ Sender 1 handle_outgoing: New frame 3 to receiver 0 | effective window = 4, nfs 
 Sender 1 handle_outgoing: New frame 4 to receiver 0 | effective window = 4, nfs = 2
 Sender 1 handle_outgoing: New frame 5 to receiver 0 | effective window = 4, nfs = 3
 Sender 1 handle_outgoing: New frame 6 to receiver 0 | effective window = 4, nfs = 4
-Receiver 1 handle_incoming_frames: lfr = 2, laf = 10, seq num = 3, checksum = 0
+Sender 2 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
+Sender 2 handle_acks: Freed up frame 1
+Sender 2 handle_acks: Shifting window idx 0 = frame 2
+Sender 2 handle_acks: Incoming ack 2, num acks = 2, dup acks = 0
+Sender 2 handle_acks: Freed up frame 2
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: Window frame is null or timeout is not null
+Sender 2 handle_outgoing: New frame 3 to receiver 0 | effective window = 4, nfs = 1
+Sender 0 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Freed up frame 1
+Sender 0 handle_acks: Shifting window idx 0 = frame 2
+Sender 0 handle_acks: Incoming ack 2, num acks = 2, dup acks = 0
+Sender 0 handle_acks: Freed up frame 2
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: New frame 3 to receiver 1 | effective window = 4, nfs = 1
+Sender 3 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
+Sender 3 handle_acks: Freed up frame 1
+Sender 3 handle_acks: Shifting window idx 0 = frame 2
+Sender 3 handle_acks: Incoming ack 2, num acks = 2, dup acks = 0
+Sender 3 handle_acks: Freed up frame 2
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: New frame 3 to receiver 0 | effective window = 4, nfs = 1
+Receiver 1 handle_incoming_frames: sender = 0, lfr = 2, laf = 10, seq num = 3, checksum = 0
 Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 1 handle_incoming_frames: frame 3 within sliding window
-Receiver 1: Finished accumulating message - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-Receiver 0 handle_incoming_frames: lfr = 2, laf = 10, seq num = 3, checksum = 0
+Receiver 1: Finished accumulating message from sender 0 - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Receiver 0 handle_incoming_frames: sender = 1, lfr = 2, laf = 10, seq num = 3, checksum = 0
 Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 0 handle_incoming_frames: frame 3 within sliding window
-Receiver 0: Finished accumulating message - dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-Receiver 0 handle_incoming_frames: lfr = 2, laf = 10, seq num = 3, checksum = 0
+Receiver 0: Finished accumulating message from sender 1 - bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Receiver 0 handle_incoming_frames: sender = 2, lfr = 2, laf = 10, seq num = 3, checksum = 0
 Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 0 handle_incoming_frames: frame 3 within sliding window
-Receiver 0: Finished accumulating message - bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-Receiver 0 handle_incoming_frames: lfr = 2, laf = 10, seq num = 3, checksum = 0
+Receiver 0: Finished accumulating message from sender 2 - dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+Receiver 0 handle_incoming_frames: sender = 3, lfr = 2, laf = 10, seq num = 3, checksum = 0
 Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 0 handle_incoming_frames: frame 3 within sliding window
-Receiver 0: Finished accumulating message - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-Receiver 0 handle_incoming_frames: lfr = 3, laf = 11, seq num = 4, checksum = 0
+Receiver 0: Finished accumulating message from sender 3 - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+Receiver 0 handle_incoming_frames: sender = 1, lfr = 3, laf = 11, seq num = 4, checksum = 0
 Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 0 handle_incoming_frames: frame 4 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 57, lfr = 4, laf = 12, to_ack = 4, index = 5, prev_slot = 0xaaab07750ce0
-Receiver 0 handle_incoming_frames: lfr = 4, laf = 12, seq num = 5, checksum = 0
+Receiver 0 handle_incoming_frames: nef for sender 1, msg length is now 57, lfr = 4, laf = 12, to_ack = 4, index = 5, prev_slot = 0xaaaad8974ce0
+Receiver 0 handle_incoming_frames: sender = 1, lfr = 4, laf = 12, seq num = 5, checksum = 0
 Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 0 handle_incoming_frames: frame 5 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 114, lfr = 5, laf = 13, to_ack = 5, index = 6, prev_slot = 0xaaab07750cf0
-Receiver 0 handle_incoming_frames: lfr = 5, laf = 13, seq num = 6, checksum = 0
+Receiver 0 handle_incoming_frames: nef for sender 1, msg length is now 114, lfr = 5, laf = 13, to_ack = 5, index = 6, prev_slot = 0xaaaad8974cf0
+Receiver 0 handle_incoming_frames: sender = 1, lfr = 5, laf = 13, seq num = 6, checksum = 0
 Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 0 handle_incoming_frames: frame 6 within sliding window
-Receiver 0 handle_incoming_frames: nef, msg length is now 171, lfr = 6, laf = 14, to_ack = 6, index = 7, prev_slot = 0xaaab07750d00
+Receiver 0 handle_incoming_frames: nef for sender 1, msg length is now 171, lfr = 6, laf = 14, to_ack = 6, index = 7, prev_slot = 0xaaaad8974d00
 Sender 2 handle_acks: Incoming ack 3, num acks = 1, dup acks = 0
 Sender 2 handle_acks: Finished up msg with receiver 0
 Sender 2 handle_acks: Freed up frame 3
@@ -295,6 +295,17 @@ Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: New frame 7 to receiver 0 | effective window = 8, nfs = 1
+Sender 0 handle_acks: Incoming ack 3, num acks = 1, dup acks = 0
+Sender 0 handle_acks: Finished up msg with receiver 1
+Sender 0 handle_acks: Freed up frame 3
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
+Sender 0 handle_outgoing: Window frame is null or timeout is not null
 Sender 3 handle_acks: Incoming ack 3, num acks = 1, dup acks = 0
 Sender 3 handle_acks: Finished up msg with receiver 0
 Sender 3 handle_acks: Freed up frame 3
@@ -307,25 +318,14 @@ Sender 3 handle_outgoing: Window frame is null or timeout is not null
 Sender 3 handle_outgoing: Window frame is null or timeout is not null
 Sender 3 handle_outgoing: Window frame is null or timeout is not null
 Sender 3 handle_outgoing: New frame 0 to receiver 1 | effective window = 1, nfs = 1
-Sender 0 handle_acks: Incoming ack 3, num acks = 1, dup acks = 0
-Sender 0 handle_acks: Finished up msg with receiver 1
-Sender 0 handle_acks: Freed up frame 3
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Sender 0 handle_outgoing: Window frame is null or timeout is not null
-Receiver 1 handle_incoming_frames: lfr = 255, laf = 7, seq num = 0, checksum = 0
+Receiver 1 handle_incoming_frames: sender = 3, lfr = 255, laf = 7, seq num = 0, checksum = 0
 Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 1 handle_incoming_frames: frame 0 within sliding window
-Receiver 1 handle_incoming_frames: nef, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaab07751230
-Receiver 0 handle_incoming_frames: lfr = 6, laf = 14, seq num = 7, checksum = 0
+Receiver 1 handle_incoming_frames: nef for sender 3, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaaad8975230
+Receiver 0 handle_incoming_frames: sender = 1, lfr = 6, laf = 14, seq num = 7, checksum = 0
 Receiver 0 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 0 handle_incoming_frames: frame 7 within sliding window
-Receiver 0: Finished accumulating message - cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+Receiver 0: Finished accumulating message from sender 1 - cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 Sender 1 handle_acks: Incoming ack 7, num acks = 1, dup acks = 0
 Sender 1 handle_acks: Finished up msg with receiver 0
 Sender 1 handle_acks: Freed up frame 7
@@ -350,18 +350,18 @@ Sender 3 handle_outgoing: Window frame is null or timeout is not null
 Sender 3 handle_outgoing: Window frame is null or timeout is not null
 Sender 3 handle_outgoing: New frame 1 to receiver 1 | effective window = 2, nfs = 1
 Sender 3 handle_outgoing: New frame 2 to receiver 1 | effective window = 2, nfs = 2
-Receiver 3 handle_incoming_frames: lfr = 255, laf = 7, seq num = 0, checksum = 0
-Receiver 3 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 3 handle_incoming_frames: frame 0 within sliding window
-Receiver 3 handle_incoming_frames: nef, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaab07751bb0
-Receiver 1 handle_incoming_frames: lfr = 0, laf = 8, seq num = 1, checksum = 0
+Receiver 1 handle_incoming_frames: sender = 3, lfr = 0, laf = 8, seq num = 1, checksum = 0
 Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 1 handle_incoming_frames: frame 1 within sliding window
-Receiver 1 handle_incoming_frames: nef, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaab07751240
-Receiver 1 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 0
+Receiver 1 handle_incoming_frames: nef for sender 3, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaaad8975240
+Receiver 1 handle_incoming_frames: sender = 3, lfr = 1, laf = 9, seq num = 2, checksum = 0
 Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 1 handle_incoming_frames: frame 2 within sliding window
-Receiver 1 handle_incoming_frames: nef, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaab07751250
+Receiver 1 handle_incoming_frames: nef for sender 3, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaaad8975250
+Receiver 3 handle_incoming_frames: sender = 1, lfr = 255, laf = 7, seq num = 0, checksum = 0
+Receiver 3 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 3 handle_incoming_frames: frame 0 within sliding window
+Receiver 3 handle_incoming_frames: nef for sender 1, msg length is now 57, lfr = 0, laf = 8, to_ack = 0, index = 1, prev_slot = 0xaaaad8975bb0
 Sender 3 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
 Sender 3 handle_acks: Freed up frame 1
 Sender 3 handle_acks: Shifting window idx 0 = frame 2
@@ -388,18 +388,29 @@ Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: New frame 1 to receiver 3 | effective window = 2, nfs = 1
 Sender 1 handle_outgoing: New frame 2 to receiver 3 | effective window = 2, nfs = 2
-Receiver 1 handle_incoming_frames: lfr = 2, laf = 10, seq num = 3, checksum = 0
-Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
-Receiver 1 handle_incoming_frames: frame 3 within sliding window
-Receiver 1: Finished accumulating message - ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-Receiver 3 handle_incoming_frames: lfr = 0, laf = 8, seq num = 1, checksum = 0
+Receiver 3 handle_incoming_frames: sender = 1, lfr = 0, laf = 8, seq num = 1, checksum = 0
 Receiver 3 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 3 handle_incoming_frames: frame 1 within sliding window
-Receiver 3 handle_incoming_frames: nef, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaab07751bc0
-Receiver 3 handle_incoming_frames: lfr = 1, laf = 9, seq num = 2, checksum = 0
+Receiver 3 handle_incoming_frames: nef for sender 1, msg length is now 114, lfr = 1, laf = 9, to_ack = 1, index = 2, prev_slot = 0xaaaad8975bc0
+Receiver 3 handle_incoming_frames: sender = 1, lfr = 1, laf = 9, seq num = 2, checksum = 0
 Receiver 3 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 3 handle_incoming_frames: frame 2 within sliding window
-Receiver 3 handle_incoming_frames: nef, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaab07751bd0
+Receiver 3 handle_incoming_frames: nef for sender 1, msg length is now 171, lfr = 2, laf = 10, to_ack = 2, index = 3, prev_slot = 0xaaaad8975bd0
+Receiver 1 handle_incoming_frames: sender = 3, lfr = 2, laf = 10, seq num = 3, checksum = 0
+Receiver 1 handle_incoming_frames: lfr diff = -1, laf diff = 7
+Receiver 1 handle_incoming_frames: frame 3 within sliding window
+Receiver 1: Finished accumulating message from sender 3 - ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Sender 3 handle_acks: Incoming ack 3, num acks = 1, dup acks = 0
+Sender 3 handle_acks: Finished up msg with receiver 1
+Sender 3 handle_acks: Freed up frame 3
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
+Sender 3 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_acks: Incoming ack 1, num acks = 1, dup acks = 0
 Sender 1 handle_acks: Freed up frame 1
 Sender 1 handle_acks: Shifting window idx 0 = frame 2
@@ -414,21 +425,10 @@ Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: Window frame is null or timeout is not null
 Sender 1 handle_outgoing: New frame 3 to receiver 3 | effective window = 4, nfs = 1
-Sender 3 handle_acks: Incoming ack 3, num acks = 1, dup acks = 0
-Sender 3 handle_acks: Finished up msg with receiver 1
-Sender 3 handle_acks: Freed up frame 3
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Sender 3 handle_outgoing: Window frame is null or timeout is not null
-Receiver 3 handle_incoming_frames: lfr = 2, laf = 10, seq num = 3, checksum = 0
+Receiver 3 handle_incoming_frames: sender = 1, lfr = 2, laf = 10, seq num = 3, checksum = 0
 Receiver 3 handle_incoming_frames: lfr diff = -1, laf diff = 7
 Receiver 3 handle_incoming_frames: frame 3 within sliding window
-Receiver 3: Finished accumulating message - gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+Receiver 3: Finished accumulating message from sender 1 - gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
 Sender 1 handle_acks: Incoming ack 3, num acks = 1, dup acks = 0
 Sender 1 handle_acks: Finished up msg with receiver 3
 Sender 1 handle_acks: Freed up frame 3
