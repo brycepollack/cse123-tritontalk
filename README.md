@@ -1,3 +1,18 @@
-Name:
+Name: Bryce Pollack
 
-PID:
+PID: A16657276
+
+Congestion Control: This is a high level overview of how the congestion control works. There are three states that the sender can be in: slow start, additive increase, and fast recovery. Slow start is the state of exponential increase that occurs when a host is initialized and when a timeout is detected in handle_timedout_frames. When in slow start, cwnd is increased by 1 for every non-duplicate ack received. Additive increase is a state of congestion avoidance that occurs when cwnd becomes greater than ssthresh. When in additive increase, cwnd is increased by 1 / cwnd for every non-duplicate ack received. Fast recovery is the state of congestion recovery that occurs when 3 duplicate acks are received for a particular sequence number. When in fast recovery, the frame after the sequence number that received 3 duplicate acks is retransmitted and cwnd is increased by 1 for every additional duplicate ack or set to ssthresh when a non-duplicate ack arrives. Transitions between these states occur primarily in the handle_incoming_acks function, as well as a transition for timing out in handle_timedout_frames.
+
+Core Functions:
+
+    Sender:
+        void handle_input_cmds(Host*): Pops any commands that were sent via the terminal from the host's command list, parses the attached  message into FRAME_PAYLOAD_SIZE sized chunks, dresses these chunks up as frames with the corresponding flags, and then attaches them to the buffered outgoing frame queue.
+
+        void handle_timedout_frames(Host*): Combs over the send window to see if any frames have a timeout before or equal to the current time. If any of these frames exist, set all timeouts to NULL so that they can be retransmitted in handle_outgoing_frames and switch state to slow start.
+
+        void handle_incoming_acks(Host*): Incoming acks from the incoming acks queue are handled here. If they are within the sliding window, they are considered non-duplicate acks. Non-dup acks reset the dup ack count, and then are handled by state. If state is slow start and cwnd <= ssthresh, increment cwnd by 1 (else, transition to additive increase). If state is fast recovery, set cwnd equal to ssthresh and transition to additive increase. If state is additive increase, increment by 1 / cwnd. Then, adjust the sliding window so that all current frames are slid as far left as possible. Acks outside of the sliding window are considered duplicate acks. Dup acks increment dup ack count and if dup ack count reaches 3, transition to fast recovery and retransmit the next frame in the send window.
+
+        void handle_outgoing_frames(Host*): At each step, the effective window size is calculated from min(send window size, floor(cwnd)). If the number of frames currently in the outgoing frames queue is less than or equal to this effective window size, then more frames can be transmitted. First, the send window is combed over to see if there are any timed out frames and if so they are retransmitted. Next, any frames in the buffered outgoing frame queue are transmitted if an empty send window slot(s) exists.
+
+        struct timeval* host_get_next_expiring_timeval(Host* host): Returns the timeout of the earliest unacknowledged frame in the send window i.e. the minimum timeout. If there is a NULL timeout in the send window (signifying that a timeout has already occurred),return the latest timeout.  

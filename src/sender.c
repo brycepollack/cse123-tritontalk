@@ -321,7 +321,6 @@ void handle_outgoing_frames(Host* host, struct timeval curr_timeval) {
             int effective_window_size = (int)floor(min_double(host->cc[outframe->dst_id].cwnd, (double)glb_sysconfig.window_size));
             if(ll_get_length(host->outgoing_frames_head) < effective_window_size){ 
                 ll_append_node(&host->outgoing_frames_head, outgoing_frame);
-                //num_frames_sent++;
                 fprintf(stderr, "Sender %d handle_outgoing: Retransmitting frame %d to receiver %d | effective window = %d, nfs = %d\n", host->id, outgoing_frame->seq_num, outgoing_frame->dst_id, effective_window_size, ll_get_length(host->outgoing_frames_head));
 
                 struct timeval* new_timeout = malloc(sizeof(struct timeval));
@@ -358,7 +357,6 @@ void handle_outgoing_frames(Host* host, struct timeval curr_timeval) {
             outgoing_frame->remaining_msg_bytes = outframe->remaining_msg_bytes;
             outgoing_frame->dst_id = outframe->dst_id;
             outgoing_frame->src_id = outframe->src_id;
-            //outgoing_frame->seq_num = outframe->seq_num;
             outgoing_frame->seq_num = ++(host->sender[dst].lfs);
             strcpy(outgoing_frame->data, outframe->data);
             char* char_buf = convert_frame_to_char(outgoing_frame);
@@ -378,7 +376,6 @@ void handle_outgoing_frames(Host* host, struct timeval curr_timeval) {
             window_slot->frame = outgoing_frame_copy;
 
             ll_append_node(&host->outgoing_frames_head, outgoing_frame);
-            //num_frames_sent++;
             host->curr_recv_id = outgoing_frame->dst_id;
             fprintf(stderr, "Sender %d handle_outgoing: New frame %d to receiver %d | effective window = %d, nfs = %d\n", host->id, outgoing_frame->seq_num, outgoing_frame->dst_id, effective_window_size, ll_get_length(host->outgoing_frames_head));
             
