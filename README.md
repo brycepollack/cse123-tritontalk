@@ -1,7 +1,3 @@
-Name: Bryce Pollack
-
-PID: A16657276
-
 Congestion Control: This is a high level overview of how the congestion control works. There are three states that the sender can be in: slow start, additive increase, and fast recovery. Slow start is the state of exponential increase that occurs when a host is initialized and when a timeout is detected in handle_timedout_frames. When in slow start, cwnd is increased by 1 for every non-duplicate ack received. Additive increase is a state of congestion avoidance that occurs when cwnd becomes greater than ssthresh. When in additive increase, cwnd is increased by 1 / cwnd for every non-duplicate ack received. Fast recovery is the state of congestion recovery that occurs when 3 duplicate acks are received for a particular sequence number. When in fast recovery, the frame after the sequence number that received 3 duplicate acks is retransmitted and cwnd is increased by 1 for every additional duplicate ack or set to ssthresh when a non-duplicate ack arrives. Transitions between these states occur primarily in the handle_incoming_acks function, as well as a transition for timing out in handle_timedout_frames.
 
 Core Functions:
